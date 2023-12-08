@@ -1,0 +1,50 @@
+o = completed
+x = WIP
+
+C & C++
+x- Computer Vision Program
+x- Lucid Gloves
+o- Wireless Webcam
+x- Game Engine
+x- New Week ( Game )
+x- Unreal Project with Rapheal
+
+Python 
+o- Media Pipe Project
+
+C# Unity
+o- Baking Game
+
+Blender
+x- VRC Avatar
+o- Monster ( The Tunnels )
+
+GML
+o- Everlost 
+o- The Tunnels
+
+JavaScript
+o- Discord bots ( Rock )
+
+HTML & CSS
+o- Website for coms
+x- Portfolio
+
+NodeJS
+o- Websites
+o- Discord bots ( Rock )
+
+Photogramatry
+o- cat skull
+o- artifact
+o- cookie
+
+IDES
+- VSCODE
+- VS2017 - 2022
+- GameMakerStudios
+- Unity
+- Unreal
+
+Things I like:
+- dragons, coding, music, studying, hanging out with friends, 3D printing, collecting rocks.
