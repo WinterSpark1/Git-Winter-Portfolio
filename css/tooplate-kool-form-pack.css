@@ -371,7 +371,11 @@ strong {
   border-radius: 10px;
   border-style:ridge;
   padding:  60px;
-  display:inline-table;
+}
+
+.text-box2 {
+  background-color: rgba(0, 0, 0, 0.315);
+  border-radius: 15px;
 }
 
 .custom-video2 {
@@ -381,6 +385,7 @@ strong {
   object-fit:cover;
   width: 100%;
   height: 100%;
+  box-shadow: 0 0 700px 700px rgb(0, 0, 0);
 }
 
 .custom-video3 {
@@ -411,24 +416,32 @@ strong {
 }
 
 .page-nav:hover {
-  color: #ffeeeee3;
-  margin: 10px;
+  color:rgb(150, 150, 150);
   margin-top: 0%;
   margin-bottom: 0%;
 }
+
 .page-nav {
-  color: #a8a8a8ce;
-  background-color: #00000059;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
   padding: 10px;
   border-radius: 10px;
   display:inline-flex;
 }
 
 .t2 {
+  color:rgb(211, 161, 114);
+  font-size: 20px;
+  padding: 7px;
+}
+
+.t3 {
   color:rgb(211, 114, 114);
   font-size: 20px;
   padding: 7px;
 }
+
 
 /*---------------------------------------
   DROP DOWN          
@@ -445,6 +458,31 @@ strong {
   font-size: 15px;
   border-radius: 10px;
 }
+
+.banner-tab-list {
+  display: block;
+  width: 100%;
+  padding: 7px;
+}
+
+.banner-tab-grid {
+  width: 75%;
+  height: 75%;
+  max-width:max-content;
+  display: flex;
+  padding: 7px;
+  overflow:hidden;
+}
+
+.collaspe-img {
+  color: #4444446c;
+  background-color: #1817176e;
+  width: 100%;
+  overflow:hidden;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
 
 .active, .collapsible:hover {
   background-color: rgba(114, 52, 52, 0.5);
