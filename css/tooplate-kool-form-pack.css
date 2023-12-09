@@ -383,6 +383,12 @@ strong {
   height: 100%;
 }
 
+.custom-video3 {
+  position:absolute;
+  left: 0;
+  display: flex;
+}
+
 .hero-title {
   color: var(--white-color);
 }
