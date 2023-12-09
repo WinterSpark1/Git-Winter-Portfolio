@@ -72,37 +72,21 @@ Bootstrap 5 Form Pack Template
 
 
             <!-- Modal -->
-            <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            <form action="#" method="get" class="custom-form mt-lg-4 mt-2" role="form">
-                                <h2 class="modal-title" id="subscribeModalLabel">Stay up to date</h2>
-
-                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" required="">
-
-                                <button type="submit" class="form-control">Notify</button>
-                            </form>
-                        </div>
-
-                        <div class="modal-footer justify-content-center">
-                            <p>By signing up, you agree to our Privacy Notice</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </main>
         <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6 col-12 mx-auto">
-                        <h1 class="text-white"> Welcome </h1>
+                    <div class="col-lg-6 col-6 mx-auto">
+                        <h1 class="text-white"> Welcome User</h1>
+                        <h3 class="text-white"> 
+                            
+                            <p> >>- Navigation -></p>
+                            <a class="page-nav" href="#ProjectPage"> View Projects </a> |
+                            <a class="page-nav" href="#ProjectPage"> Show Contacts </a> |
+                            <a class="page-nav" href="#ProjectPage"> About My Self </a> |
+                            
+                        </h3>>
                         <!-- please set the date time in the init.js file -->
 
                          <ul class="countdown d-flex flex-wrap align-items-center">
@@ -118,12 +102,12 @@ Bootstrap 5 Form Pack Template
 
                            <li class="countdown-item d-flex flex-column justify-content-center align-items-center">
                                 <h2 class="countdown-title minutes">15</h2>
-                                <span class="countdown-text">Minutes</span>
+                                <span class="countdown-text">Mins</span>
                            </li>
 
                            <li class="countdown-item d-flex flex-column justify-content-center align-items-center">
                                 <h2 class="countdown-title seconds">34</h2>
-                                <span class="countdown-text">Seconds</span>
+                                <span class="countdown-text">Secs</span>
                            </li>     
                         </ul>
                     </div>
@@ -149,7 +133,7 @@ Bootstrap 5 Form Pack Template
 
                     <div class="col-lg-12 col-24 mx-auto">
                         <div>
-                            <h2 class="text-white"> My Projects  </h1>
+                            <h2 class="text-white" id="ProjectPage"> My Projects  </h1>
 
                             <div class="text-box">
                                 <h2 class="text-white"> >> Video Games  </h2>
@@ -164,7 +148,7 @@ Bootstrap 5 Form Pack Template
                                 </button>
                                 <div class="content">
                                     <h2> The EverLost Project </h2>
-                                    <img class="img-frame" src="images/Everlost1.png" alt="Tunnels"> 
+                                    <img class="img-frame" src="images/everlost1.png" alt="Tunnels"> 
                                     <a class="h5 t2" href="https://thereddragon147.itch.io/ever-lost-project"> [ HyperLink to the Everlost page ]</a>
 
                                     <p class="t1"> Everlost was the second game I ever made. 
@@ -211,16 +195,6 @@ Bootstrap 5 Form Pack Template
                                     </p>
                                 </div>
 
-                                <!-- VR Pizza Simulator -->
-                                <button type="button" class="collaspe">
-                                    <h3 class="text-white"> <\> Pizza Simulator (Vitural Reality) -> Incomplete</h2>
-                                </button>
-                                <div class="content">
-                                    <h2> VR Pizza Simulator </h2>
-                                    <p class="t1"> VR Pizza Simulator is a VR game I made in the Unity Game Engine in less than
-                                        24 Hours, this was a game I made in college 
-                                </div>
-                                
                                 <!-- Game Shaders -->
                                 <button type="button" class="collaspe">
                                     <h3 class="text-white"> <\> Game Shaders</h2>
@@ -240,18 +214,15 @@ Bootstrap 5 Form Pack Template
 
                                 <!-- Face Reconizion -->
                                 <button type="button" class="collaspe">
-                                    <h3 class="text-white"> <\> Simple Face Reconizion (OpenCV C++) -> Incomplete</h2>
+                                    <h3 class="text-white"> <\> Pixel-Art Commission Website</h2>
                                 </button>
                                 <div class="content">
-                                    <h2> Face Reconizion </h2>
-                                    <p class="t1"> I find computer vision really fascinating. 
-                                        This is a small program that uses cascades to find and place boxes over your eyes, 
-                                        giving you virtual glasses. This was all written in plain C++ using OpenCV, and 
-                                        I used Visual Studio as my IDE. It also captures your device's webcam, allowing it 
-                                        to draw detections in real time.
                                 </div>
-                                <p class="text-white"> <\> Pixel-art Commission Site </p>
-                                <p class="text-white"> <\> Porfolio Site </p>
+                                <button type="button" class="collaspe">
+                                    <h3 class="text-white"> <\> Porfolio Site</h2>
+                                </button>
+                                <div class="content">
+                                </div>
                             </div>
                             <div class="text-box">
                                 <h4 class="text-white"> DIY Hardware  </h4>
@@ -270,13 +241,11 @@ Bootstrap 5 Form Pack Template
                                     </p>
 
                                     <h2> Streamed Holistic Tracking </h2>
-                                    <div>
                                         <video autoplay="" loop="" muted="" class="img-frame" poster="">
                                             <source src="videos/Holistic.mov" type="video/mp4">
                         
                                             Your browser does not support the video tag.
                                         </video>
-                                    </div>
 
                                     <p class="t1"> I used a ESP32-CAM from a robot I was building at the time 
                                         to stream video capture over wifi (since BTS protocals are to weak),
@@ -293,7 +262,7 @@ Bootstrap 5 Form Pack Template
                     
                                <!-- DIY Winter Mask [WIP] -->
                                 <button type="button" class="collaspe">
-                                    <h3 class="text-white"> <\> [WIP] Winter Mask >> Eyetracking Cameras </h2>
+                                    <h3 class="text-white"> <\> [WIP] Eyetracking Mask </h2>
                                 </button>
                                 <div class="content">
                                     
@@ -347,28 +316,31 @@ Bootstrap 5 Form Pack Template
                                 <p class="text-white"> <\> Pixelart Gallery </p>
                             </div>
                         </div>
+
+                        <div class="container">
                         <h1 class="text-white"> Technical Toolkit  </h1>
-                        <div class="text-box">
-                            <!-- please set the date time in the init.js file -->
-                            <h4 class="text-white"> || IDEs || </h4>
-                            <p class="text-white"> <\> Visual Studios Code </p>
-                            <p class="text-white"> <\> Visual Studios </p>
-                            <p class="text-white"> <\> Game Maker Studios </p>
-                            <p class="text-white"> <\> Unity Engine </p>
-                            <p class="text-white"> <\> Unreal Engine </p>
-                        </div>
-                        <div class="text-box">
-                            <h4 class="text-white"> || Coding Languages || </h4>
-                            <p class="text-white"> <\> C/C++ </p>
-                            <p class="text-white"> <\> C# </p>
-                            <p class="text-white"> <\> JavaScript </p>
-                            <p class="text-white"> <\> GML </p>
-                            <p class="text-white"> <\> HMTL/CSS </p>
-                            <p class="text-white"> <\> Python </p>
-                        </div>
-                        <div class="text-box">
-                            <h4 class="text-white"> || APIs || </h4>
-                            <p class="text-white"> <\> NodeJS </p>
+                            <div class="text-box">
+                                <!-- please set the date time in the init.js file -->
+                                <h4 class="text-white"> || IDEs || </h4>
+                                <p class="text-white"> <\> Visual Studios Code </p>
+                                <p class="text-white"> <\> Visual Studios </p>
+                                <p class="text-white"> <\> Game Maker Studios </p>
+                                <p class="text-white"> <\> Unity Engine </p>
+                                <p class="text-white"> <\> Unreal Engine </p>
+                            </div>
+                            <div class="text-box">
+                                <h4 class="text-white"> || Coding Languages || </h4>
+                                <p class="text-white"> <\> C/C++ </p>
+                                <p class="text-white"> <\> C# </p>
+                                <p class="text-white"> <\> JavaScript </p>
+                                <p class="text-white"> <\> GML </p>
+                                <p class="text-white"> <\> HMTL/CSS </p>
+                                <p class="text-white"> <\> Python </p>
+                            </div>
+                            <div class="text-box">
+                                <h4 class="text-white"> || APIs || </h4>
+                                <p class="text-white"> <\> NodeJS </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -419,49 +391,6 @@ Bootstrap 5 Form Pack Template
                                 in nature gives a sense of peace, i looking at the leafs when light bleeds through it,
                                 the vibrant green and rays off of it is just wow, so cool.
                             </p>
-                        </div>
-                        <div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Video Games  </h4>
-                                <p class="text-white"> <\> Ever Lost </p>
-                                <p class="text-white"> <\> The Tunnels 
-                                </p>
-                                <p class="text-white"> <\> VR Pizza Simulator </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Software  </h4>
-                                <p class="text-white"> <\> Full Body Reconnizion (MediaPipe) </p>
-                                <p class="text-white"> <\> Simple Face Reconizion (OpenCV) </p>
-                                <p class="text-white"> <\> Simple Discord Bot </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Websites  </h4>
-                                <p class="text-white"> <\> Pixel-art Commission Site </p>
-                                <p class="text-white"> <\> Porfolio Site </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> DIY Hardware  </h4>
-                                <p class="text-white"> <\> VR Gloves </p>
-                                <p class="text-white"> <\> Winter Mask </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Networking  </h4>
-                                <p class="text-white"> <\> 3D Cat Skull </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Modelling  </h4>
-                                <p class="text-white"> <\> Monster (For The Tunnels) </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Photography  </h4>
-                                <p class="text-white"> <\> 3D Cat Skull </p>
-                                <p class="text-white"> <\> 3D Artifact </p>
-                            </div>
-                            <div class="text-box">
-                                <h4 class="text-white"> Artwork  </h4>
-                                <p class="text-white"> <\> Pixelart Gallery </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
